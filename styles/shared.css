@@ -3,6 +3,26 @@ body {
     margin: 0;
 }
 
+header {
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#page-logo a {
+    text-decoration: none;
+    color: rgb(245, 243, 160);
+    font-family: "Oleo Script", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
 header a {
     text-decoration: none;
     padding: 6px 12px;
@@ -11,7 +31,7 @@ header a {
     font-weight: 600;
 }
 
-header a:hover {
+header li a:hover {
     color: grey;
     background-color: rgb(245, 243, 160);
     border-radius: 8px;
@@ -27,26 +47,6 @@ header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#page-logo a {
-    text-decoration: none;
-    color: rgb(245, 243, 160);
-    font-family: "Oleo Script", sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px black;
-}
-
-header {
-    padding: 15px 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 footer {
