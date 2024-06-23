@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(30deg, rgb(78, 78, 78), rgb(54, 54, 54));
+    color:rgb(54, 54, 54);
+}
+
+header {
+    position: static;
+}
+
+main ul {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+main li img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions a {
+    padding: 6px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(74, 237, 255);
+    font-weight: 700;
+}
+
+.actions a:hover {
+    color: rgb(15, 171, 255);
+    background-color: rgb(224, 241, 255);
+}

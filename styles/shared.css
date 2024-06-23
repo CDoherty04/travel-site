@@ -1,5 +1,6 @@
 body {
     font-family: "Quicksand";
+    font-weight: 500;
     margin: 0;
 }
 
@@ -50,7 +51,7 @@ header ul {
 }
 
 footer {
-    background: linear-gradient(70deg, black, grey);
+    background: linear-gradient(70deg, rgb(20, 20, 20), rgb(37, 37, 37));
     padding: 36px;
 }
 
